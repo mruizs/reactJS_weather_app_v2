@@ -1,0 +1,52 @@
+// Import all partials
+@require './_*.styl'
+
+body
+  margin 0
+  padding 0
+  font-family sans-serif
+  background-color bgcolor
+
+Header.App-header
+  padding-bottom 3em
+  h1
+    font-size 4em
+  h2
+    font-size 3em
+  .App-logo
+    animation App-logo-spin infinite 20s linear
+    height 1em
+    padding-top 0.5em
+
+div
+  .prevision
+    padding-top 2em
+    padding-bottom 2em
+    display flex
+    flex-direction row
+    flex auto
+  .today
+    h3, p
+      // font-size: 1.2%
+
+.red
+  color red
+
+.blue
+  color blue
+
+.App
+  text-align center
+
+.App-header
+  background-color bgcolor
+  padding 20px
+  color black
+
+.App-intro
+  font-size large
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

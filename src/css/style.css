@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'bungee_shade';
+  src: url("./fonts/BungeeShade-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "bungee_inline";
+  src: url("./fonts/BungeeInline-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "lato";
+  src: url("./fonts/Lato-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+h1,
+h2 {
+  font-family: bungee_shade, sans-serif;
+  text-align: center;
+  font-weight: normal;
+  margin: 0;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-family: bungee_inline, sans-serif;
+  text-align: center;
+  font-weight: normal;
+  margin: 0;
+}
+p {
+  font-family: lato, sans-serif;
+  text-align: center;
+  font-weight: normal;
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #fff;
+}
+Header.App-header {
+  padding-bottom: 3em;
+}
+Header.App-header h1 {
+  font-size: 4em;
+}
+Header.App-header h2 {
+  font-size: 3em;
+}
+Header.App-header .App-logo {
+  -webkit-animation: App-logo-spin infinite 20s linear;
+          animation: App-logo-spin infinite 20s linear;
+  height: 1em;
+  padding-top: 0.5em;
+}
+div .prevision {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+.red {
+  color: #be2525;
+}
+.blue {
+  color: #475cd1;
+}
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #fff;
+  padding: 20px;
+  color: #000;
+}
+.App-intro {
+  font-size: large;
+}
+@-webkit-keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
